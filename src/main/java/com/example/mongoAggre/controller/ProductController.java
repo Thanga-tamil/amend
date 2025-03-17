@@ -30,6 +30,4 @@ public class ProductController {
     public List<productResponseDto> getProduct(@RequestParam String product) {
         return productService.getProduct(product);
     }
-
-    //develop branch changes
 }
